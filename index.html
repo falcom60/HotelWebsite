@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aweshttps://cdnjs.cloudfome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Hotel Website</title>
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-hotel"></i> hotel </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#à propos">à propos</a>
+            <a href="#chambre">chambre</a>
+            <a href="#gallerie">gallerie</a>
+            <a href="#review">commentaire</a>
+            <a href="#faq">faq</a>
+            <a href="#reservation" class="btn"> réserve maintenant </a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>c'est là que les rêves deviennent réalité</h3>
+                        <a href="#" class="btn">Consulter nos offres</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>c'est là que les rêves deviennent réalité</h3>
+                        <a href="#" class="btn">Consulter nos offres</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>c'est là que les rêves deviennent réalité</h3>
+                        <a href="#" class="btn">Consulter nos offres</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>c'est là que les rêves deviennent réalité</h3>
+                        <a href="#" class="btn">Consulter nos offres</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+
+    <section class="availability">
+
+        <form action="">
+
+            <div class="box">
+                <p>enregistrement<span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>vérifier<span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>adultes<span>*</span></p>
+                <select name="adultes" id="input">
+                    <option value="1">1 adultes</option>
+                    <option value="2">2 adultes</option>
+                    <option value="3">3 adultes</option>
+                    <option value="4">4 adultes</option>
+                    <option value="5">5 adultes</option>
+                    <option value="6">6 adultes</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>enfants<span>*</span></p>
+                <select name="enfants" id="input">
+                    <option value="1">1 enfant</option>
+                    <option value="2">2 enfant</option>
+                    <option value="3">3 enfant</option>
+                    <option value="4">4 enfant</option>
+                    <option value="5">5 enfant</option>
+                    <option value="6">6 enfant</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms<span>*</span></p>
+                <select name="rooms" id="input">
+                    <option value="1">1 rooms</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
+            </div>
+
+            <input type="submit" value="voir les disponibiltés" class="btn">
+        </form>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>à propos</h3>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="room" id="room">
+
+        <h1 class="heading">our room</h1>
+
+        <div class="swiper room-slider">
+
+            <div class="swiper-wrapper">
+               
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">39.99€/nuit</span>
+                        <img src="images/room-1.jpg" alt="">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>exclusive room</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>   
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">39.99€/nuit</span>
+                        <img src="images/room-2.jpg" alt="">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>exclusive room</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>   
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                   </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">39.99€/nuit</span>
+                        <img src="images/room-3.jpg" alt="">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>exclusive room</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>   
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">39.99€/nuit</span>
+                        <img src="images/room-4.jpg" alt="">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>exclusive room</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half-alt"></i>   
+                        </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+            </div>   
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/service1.png" alt="">
+                <h3>swimming pool</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service2.png" alt="">
+                <h3>food & drink</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service3.png" alt="">
+                <h3>restaurant</h3>
+            </div>
+            
+            <div class="box">
+                <img src="images/service4.png" alt="">
+                <h3>fitness</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service5.png" alt="">
+                <h3>beauty spa</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service6.png" alt="">
+                <h3>resort beach</h3>
+            </div>
+
+
+        </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+
+    <h1 class="heading">notre gallerie</h1>
+
+    <div class="swiper gallery-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery1.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery2.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery3.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery4.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery5.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/gallery6.jpg" alt="">
+                <div class="icon">
+                    <i class="fas fa-magnifying-glass-plus"></i>
+                </div>      
+            </div>
+        </div>
+           
+    </div>
+   
+  </section>
+
+  <section class="review" id="review">
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-5.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="swiper-slide slide">
+                <h2 class="heading">Avis client</h2>
+                <i class="fas fa-quote-right"></i>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                <div class="user">
+                    <img src="images/pic-6.png" alt="">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination">
+
+        </div>
+    </div>
+  </section>
+
+  <section class="faqs" id="faq">
+
+    <h1 class="heading">frequently asked questions</h1>
+    <div class="row">
+
+        <div class="image">
+            <img src="images/FAQs.gif" alt="">
+        </div>
+
+        <div class="content">
+
+            <div class="box active">
+                <h3>quels sont les modes de paiement?</h3>
+                <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+            </div>
+
+            <div class="box">
+                <h3>quand peut-on annuler une réservation?</h3>
+                <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+            </div>
+
+            <div class="box">
+                <h3>le petit déjeuner est-il compris?</h3>
+                <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+            </div>
+
+            <div class="box">
+                <h3>peut-on réserver en ligne?</h3>
+                <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+            </div>
+
+            <div class="box">
+                <h3>peut-on réserver un taxi de l'hotel?</h3>
+                <p>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+            </div>
+
+        </div>
+
+    </div>
+  </section>
+
+  <section class="reservation" id="reservation">
+
+    <h1 class="heading">réserve maintenant</h1>
+
+    <form action="">
+
+        <div class="container">
+
+            <div class="box">
+                <p>name <span>*</span></p>
+                <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+                <p>email <span>*</span></p>
+                <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+                <p>check in <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>check out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>adults <span>*</span></p>
+                <select name="adults" class="input">
+                    <option value="1">1 adults</option>
+                    <option value="2">2 adults</option>
+                    <option value="3">3 adults</option>
+                    <option value="4">4 adults</option>
+                    <option value="5">5 adults</option>
+                    <option value="6">6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>children <span>*</span></p>
+                <select name="children" class="input">
+                    <option value="1">1 child</option>
+                    <option value="2">2 child</option>
+                    <option value="3">3 child</option>
+                    <option value="4">4 child</option>
+                    <option value="5">5 child</option>
+                    <option value="6">6 child</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms <span>*</span></p>
+                <select name="rooms" class="input">
+                    <option value="1">1 rooms</option>
+                    <option value="2">2 rooms</option>
+                    <option value="3">3 rooms</option>
+                    <option value="4">4 rooms</option>
+                    <option value="5">5 rooms</option>
+                    <option value="6">6 rooms</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>rooms type <span>*</span></p>
+                <select name="type" class="input">
+                    <option value="1">exclusive rooms</option>
+                    <option value="2">family rooms</option>
+                    <option value="3">daily rooms</option>
+                    <option value="4">panoramic rooms</option>       
+                </select>
+            </div>
+        </div>
+
+        <input type="submit" value="check availability" class="btn">
+
+    </form>
+
+  </section>
+
+  <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 01 42 55 83 79 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 08 00 53 53 53 </a>
+            <a href="#"> <i class="fas fa-enveloppe"></i> entreprise.inc@outlook.fr </a>
+            <a href="#"> <i class="fas fa-map"></i> Rabat, Maroc </a>  
+        </div>
+
+        <div class="box">
+            <h3>liens rapides</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> à propos </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> chambre </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallerie </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reservation </a>
+        </div>
+
+        <div class="box">
+            <h3>liens supplémentaires</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politique de remboursement </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politique de remboursement </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politique de remboursement</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politique de remboursement </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> politique de remboursement </a>
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">&copy; copyright @ 2023 by <span>entreprise.inc</span></div>
+
+  </section>
+
+  
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
